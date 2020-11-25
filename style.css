@@ -1,0 +1,57 @@
+#about{
+    background: linear-gradient(90deg, rgba(234,26,26,1) 0%, rgba(237,211,13,1) 100%);
+    text-align: center;
+}
+body{
+    background: linear-gradient(90deg, rgba(234,26,26,1) 0%, rgba(237,211,13,1) 100%);
+    text-align: center;
+}
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 150px;
+    margin: 8px auto;
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+.heading{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 15;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.links:hover{
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#mywork{
+    background: linear-gradient(90deg, rgba(26,157,234,1) 0%, rgba(0,255,67,1) 100%);
+}
+html{
+    scroll-behavior: smooth;
+}
